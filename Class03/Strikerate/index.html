@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strike rate</title>
+  </head>
+  <body>
+    <script>
+      function countStrikeRate(runs, balls) {
+        const strikeRate = (runs / balls) * 100;
+        return strikeRate.toFixed(2);
+      }
+      const runsScored = 100;
+      const ballsFaced = 60;
+      const strikeRate = countStrikeRate(runsScored, ballsFaced);
+      console.log(`Strike Rate: ${strikeRate}`);
+    </script>
+  </body>
+</html>

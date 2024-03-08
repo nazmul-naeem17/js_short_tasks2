@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>isLeapYear</title>
+  </head>
+  <body>
+    <script>
+      function isLeapYear(year) {
+        return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+      }
+      const year = 2024;
+      console.log(isLeapYear(year));
+    </script>
+  </body>
+</html>

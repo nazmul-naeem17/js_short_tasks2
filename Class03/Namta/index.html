@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namta</title>
+    <style>
+        h1{
+            color: blue;
+            text-align: center;
+        }
+        h3{
+            color: cadetblue;
+            text-align: center;
+        }
+        p{
+            padding: 10px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multiply x Namta</h1>
+    <h3>Using 5</h3>
+    <p>5*1=5</p>
+    <p>5*2=10</p>
+    <p>5*3=15</p>
+    <p>5*4=20</p>
+    <p>5*5=25</p>
+    <p>5*6=30</p>
+    <p>5*7=35</p>
+    <p>5*8=40</p>
+    <p>5*9=45</p>
+    <p>5*10=50</p>
+    <script>
+        function multiply(number) {
+            for (let i = 1; i <= 10; i++) {
+                const result = number * i;
+                alert(`${number} * ${i} = ${result}`);
+            }
+        }
+        multiply(5);
+    </script>
+</body>
+</html>
